@@ -1,3 +1,5 @@
+/*Debiste ahaber colocado 'use strict' (yo tampoco la puse)
+ y debiste asegurar que el document ya hubiera cargado antes e llamar esta función. */
 var myData =[
   { name: "Op. research", weg: 60, height: 0.7 },
   { name: "BI", weg: 40,  height: 0.9},
@@ -70,5 +72,5 @@ function update(myData) {
   
 }
 
-
-update(myData);
+/*carga de documento*/
+$(document).ready(update(myData));
