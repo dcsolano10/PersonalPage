@@ -1,4 +1,7 @@
 <!doctype html>
+<!--Jairo Bautita: Comentarios generales, no colocaste alt a todas las imagenes, 
+	y los tags que no requieren un tag de cierre (e.g. img) 
+	los deberias cerrar en si mismos (i.e. <img />>-->
 <html class="no-js" lang="">
   <head>
     <meta charset="utf-8">
@@ -15,9 +18,13 @@
     <link rel="stylesheet" href="css/vendor/animate.min.css">
     <link rel="stylesheet" href="css/vendor/owl.carousel.css">
     <link rel="stylesheet" href="css/vendor/owl.transitions.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--Jairo Bautista: No cargaria ningun 
+		tipo de script en el head, para cargar más rápido la página.
+		Los dejare antes de cerrar el body
     <script src="js/vendor/modernizr.js"></script>
-    <script src="https://d3js.org/d3.v4.js"></script>
+	<script src="https://d3js.org/d3.v4.js"></script>
+	-->
 
   </head>
   <body class="single">
@@ -44,33 +51,33 @@
   </div>
 </header>
 
+	<!--Jairo Bautista: Sección mal indentada-->
 	<!-- nav section -->
 	<div class="main-menu">
-	<div id="rex-sticky">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 menu-section">
-			      
-  <div class="menu-button one-page">Menu</div>
-  <nav>
-    <ul  id="navigation-menu" data-breakpoint="992" class="flexnav one-page">
-      <li><a href="index.html" width="100">Home</a>
-      </li>
-      <li><a href="#about">About me</a>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#work">Work</a></li>
-      </li>
-    </ul>
-  </nav>				
+		<div id="rex-sticky">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 menu-section">
+						<div class="menu-button one-page">Menu</div>
+						<nav>
+							<ul  id="navigation-menu" data-breakpoint="992" class="flexnav one-page">
+								<li><a href="index.html" width="100">Home</a>
+								</li>
+								<li><a href="#about">About me</a>
+									<li><a href="#skills">Skills</a></li>
+									<li><a href="#experience">Experience</a></li>
+									<li><a href="#education">Education</a></li>
+									<li><a href="#work">Work</a></li>
+								</li>
+							</ul>
+						</nav>				
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-
+<
 	<span class="background"></span>
 	<section class="main">
 		<div class="container">
@@ -78,330 +85,304 @@
 				<div class="col-md-12">
 					<div class="about">
 							<!-- About section first style -->
-
-	<div class="hero">
-		<div class="hero-inner">
-	    <a href="" class="hero-logo"><img src="./img/a1.jpg" alt="Logo Image" height="152" width="152"></a>
-			<div class="hero-copy">
-				<h1>Diana Solano</h1>
-				<h6>Industrial &#38 Systems and Computing Engineer</h6>
-				<div class="media-link">
-					<a href="https://twitter.com/DianaCSolano"><i class="fa fa-twitter-square"></i></a>
-					<a href="https://www.facebook.com/DianaCSolano17"><i class="fa fa-facebook-square"></i></a>
-					<a href="https://www.linkedin.com/in/dianacatalinasolano10/"><i class="fa fa-linkedin-square"></i></a>
-				</div>	
-				<div class="hero-btn">
-					<a class="btn btn-default rex-primary-btn-effect" href="mailto:dianasbeltran@gmail.com" role="button"><span>Contact Me</span></a>
-					<a class="btn btn-default rex-primary-btn-effect" href="img/Resume.pdf" target="_blank" role="button">Download CV</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="active-section" id="about">
-		<div class="about-section">
-			<div class="row">
-				<div class="col-md-6">
-					<h4>About</h4>
-					<div class="about-content">
-						<span class="active-color">Hello, I am Diana Solano, I am Industrial engineer and Systems and Computing engineer with minor in Economics.</span>
-						<p>I am passionate about the way IT can help people to solve problems, improve and bring revenue to the entire society. In the same way, I am deeply interested in Operations Research and Data Analysis as I find in these fields the intersection between my studies and, valuable resources to support decisions, learn and design new ideas based on previous experience.</p>
-						<span class="border-dashed"></span>
-					</div>
-				</div>
-				<div class="col-md-5 col-md-offset-1">
-					<h4>Basic Information</h4>
-					<ul class="list-group">
-						<li class="list-group-item">
-						</li>
-						<li class="list-group-item">
-							<div class="row">
-								<div class="col-md-4">
-									<h6>Date of Birth:</h6>
-								</div>
-								<div class="col-md-8">
-									<p>29 June, 1996</p>
+							<!--Jairo Bautista: Sección mal indenta-->
+						<div class="hero">
+							<div class="hero-inner">
+								<!--Jairo Bautista: mejor manejar el height y el width en el css, hubieras usado una clase logo-->
+	    						<a href="" class="hero-logo"><img src="./img/a1.jpg" alt="Logo Image" height="152" width="152"></a>
+								<div class="hero-copy">
+									<h1>Diana Solano</h1>
+									<h6>Industrial &#38 Systems and Computing Engineer</h6>
+									<div class="media-link">
+									<a href="https://twitter.com/DianaCSolano"><i class="fa fa-twitter-square"></i></a>
+									<a href="https://www.facebook.com/DianaCSolano17"><i class="fa fa-facebook-square"></i></a>
+									<a href="https://www.linkedin.com/in/dianacatalinasolano10/"><i class="fa fa-linkedin-square"></i></a>
+								</div>	
+								<div class="hero-btn">
+									<a class="btn btn-default rex-primary-btn-effect" href="mailto:dianasbeltran@gmail.com" role="button"><span>Contact Me</span></a>
+									<a class="btn btn-default rex-primary-btn-effect" href="img/Resume.pdf" target="_blank" role="button">Download CV</a>
 								</div>
 							</div>
-						</li>
-						<li class="list-group-item">
-							<div class="row">
-								<div class="col-md-4">
-									<h6>Place of Birth:</h6>
-								</div>
-								<div class="col-md-8">
-									<p>Bogotá, Colombia</p>
-								</div>
-							</div>
-						</li>
-						<li class="list-group-item">
-							<div class="row">
-								<div class="col-md-4">
-									<h6>Language</h6>
-								</div>
-								<div class="col-md-8">
-									<p>Spanish, English, French</p>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-
-					</div>
-
-					<br>
-					<br>
-					<!-- skill-section -->
-<div id="skills" class="active-section">
-	<div class="section-block skill-section">
-		<div class="row">
-			<div class="col-md-6">
-				<div class="skill-content">
-					<h4 class="title">Skills</h4>
-
-					<h6>Java</h6>
-					<div class="skillbar clearfix " data-percent="80%">
-						<div class="skillbar-bar"></div>
-						<div class="skill-bar-percent">80%</div>
-					</div> <!-- End Skill Bar -->
-
-					<h6>SQL</h6>
-					<div class="skillbar clearfix " data-percent="90%">
-						<div class="skillbar-bar"></div>
-						<div class="skill-bar-percent">90%</div>
-					</div> <!-- End Skill Bar -->
-
-					<h6>Simio</h6>
-					<div class="skillbar clearfix " data-percent="70%">
-						<div class="skillbar-bar"></div>
-						<div class="skill-bar-percent">70%</div>
-					</div> <!-- End Skill Bar -->
-
-					<h6>Tableau</h6>
-					<div class="skillbar clearfix " data-percent="90%">
-						<div class="skillbar-bar"></div>
-						<div class="skill-bar-percent">90%</div>
-					</div> <!-- End Skill Bar -->
-
-					<h6>R software</h6>
-					<div class="skillbar clearfix " data-percent="60%">
-						<div class="skillbar-bar"></div>
-						<div class="skill-bar-percent">60%</div>
-					</div> <!-- End Skill Bar -->
-				</div>
-			</div>
-
-			<div class="col-md-6">
-				<div class="skill-content">
-				<h4 class="title">Interests</h4>
-				<div id="chart"></div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-	</div>
-					<br>
-					<br>
-
-					<!-- experience-section -->
-						<div id="experience" class="active-section">
-	<div class="section-block experience">
-		<h4 class="title">Work Experience</h4>
-		<div class="row">
-			<div id="rex-experience-slider">
-				<div class="listing-content">
-					<div class="col-md-2 list-img">
-						<!-- <img src="http://placehold.it/142x133" alt=""> -->
-						<div class="experience-date">
-							<h6>Jan 2015 - <br>Present</h6>
 						</div>
-						<span class="angle"></span>
 					</div>
-					<div class="col-md-10 list-description">
-						<h6>Course Assistant Teacher <span>/ Los Andes University</span></h6>
-						<p>Courses: Business Intelligence, Stochastic models, Algorithmic and Object- Oriented Programming 1, Data Structures, IT in Organizations, Structural Math and Logic and Business Information Systems. Objectives: Develop course activities, grade student’s activities, give laboratory lessons, help students on the development of their projects.</p>
-					</div>
-				</div>
-				<div class="listing-content">
-					<div class="col-md-2 list-img">
-						<!-- <img src="http://placehold.it/142x133" alt=""> -->
-						<div class="experience-date">
-							<h6>Jan 2015 - <br>June 2015 </h6>
+					<div class="active-section" id="about">
+						<div class="about-section">
+							<div class="row">
+								<div class="col-md-6">
+									<h4>About</h4>
+										<div class="about-content">
+										<span class="active-color">Hello, I am Diana Solano, I am Industrial engineer and Systems and Computing engineer with minor in Economics.</span>
+										<p>I am passionate about the way IT can help people to solve problems, improve and bring revenue to the entire society. In the same way, I am deeply interested in Operations Research and Data Analysis as I find in these fields the intersection between my studies and, valuable resources to support decisions, learn and design new ideas based on previous experience.</p>
+										<span class="border-dashed"></span>
+									</div>
+								</div>
+								<div class="col-md-5 col-md-offset-1">
+									<h4>Basic Information</h4>
+									<ul class="list-group">
+										<li class="list-group-item">
+										</li>
+										<li class="list-group-item">
+											<div class="row">
+												<div class="col-md-4">
+													<h6>Date of Birth:</h6>
+												</div>
+												<div class="col-md-8">
+													<p>29 June, 1996</p>
+												</div>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="row">
+												<div class="col-md-4">
+													<h6>Place of Birth:</h6>
+												</div>
+												<div class="col-md-8">
+													<p>Bogotá, Colombia</p>
+												</div>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="row">
+												<div class="col-md-4">
+													<h6>Language</h6>
+												</div>
+												<div class="col-md-8">
+													<p>Spanish, English, French</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
-						<span class="angle"></span>
 					</div>
-					<div class="col-md-10 list-description">
-						<h6>Student Research Assistant<span>/ Los Andes University</span></h6>
-						<p>Objectives: Help on the development of a model of transmission of information in dynamic networks. An Agent-Based model of knowledge transfer within organizations.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>	
-
-					<br>
-					<br>
+						</div>
+							<br>
+							<br>
+							<!-- skill-section -->
+							<div id="skills" class="active-section">
+								<div class="section-block skill-section">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="skill-content">
+												<h4 class="title">Skills</h4>
+												<h6>Java</h6>
+												<div class="skillbar clearfix " data-percent="80%">
+													<div class="skillbar-bar"></div>
+													<div class="skill-bar-percent">80%</div>
+												</div> <!-- End Skill Bar -->
+												<h6>SQL</h6>
+												<div class="skillbar clearfix " data-percent="90%">
+													<div class="skillbar-bar"></div>
+													<div class="skill-bar-percent">90%</div>
+												</div> <!-- End Skill Bar -->
+												<h6>Simio</h6>
+												<div class="skillbar clearfix " data-percent="70%">
+													<div class="skillbar-bar"></div>
+													<div class="skill-bar-percent">70%</div>
+												</div> <!-- End Skill Bar -->
+												<h6>Tableau</h6>
+												<div class="skillbar clearfix " data-percent="90%">
+													<div class="skillbar-bar"></div>
+													<div class="skill-bar-percent">90%</div>
+												</div> <!-- End Skill Bar -->
+												<h6>R software</h6>
+												<div class="skillbar clearfix " data-percent="60%">
+													<div class="skillbar-bar"></div>
+													<div class="skill-bar-percent">60%</div>
+												</div> <!-- End Skill Bar -->
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="skill-content">
+												<h4 class="title">Interests</h4>
+												<div id="chart"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<br>
+							<br>
+							<!-- experience-section -->
+							<div id="experience" class="active-section">
+								<div class="section-block experience">
+									<h4 class="title">Work Experience</h4>
+									<div class="row">
+										<div id="rex-experience-slider">
+											<div class="listing-content">
+												<div class="col-md-2 list-img">
+												<!-- <img src="http://placehold.it/142x133" alt=""> -->
+													<div class="experience-date">
+													<h6>Jan 2015 - <br>Present</h6>
+												</div>
+												<span class="angle"></span>
+											</div>
+											<div class="col-md-10 list-description">
+												<h6>Course Assistant Teacher <span>/ Los Andes University</span></h6>
+												<p>Courses: Business Intelligence, Stochastic models, Algorithmic and Object- Oriented Programming 1, Data Structures, IT in Organizations, Structural Math and Logic and Business Information Systems. Objectives: Develop course activities, grade student’s activities, give laboratory lessons, help students on the development of their projects.</p>
+											</div>
+										</div>
+										<div class="listing-content">
+											<div class="col-md-2 list-img">
+											<!-- <img src="http://placehold.it/142x133" alt=""> -->
+												<div class="experience-date">
+													<h6>Jan 2015 - <br>June 2015 </h6>
+												</div>
+												<span class="angle"></span>
+											</div>
+											<div class="col-md-10 list-description">
+												<h6>Student Research Assistant<span>/ Los Andes University</span></h6>
+												<p>Objectives: Help on the development of a model of transmission of information in dynamic networks. An Agent-Based model of knowledge transfer within organizations.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>	
+						<br>
+						<br>
 
 					<!-- education-section -->
 						<div id="education" class="active-section">
-<div class="section-block education">
-	<h4 class="title">Education</h4>
-	<div class="row">
-		<div id="rex-education-slider">
-		<div class="listing-content">
-			<div class="col-md-2 list-img">
-				<img src="./img/education/education-img2.jpg" alt="">
-			</div>
-			<div class="col-md-10 list-description">
-				<h6>Los Andes University</h6>
-				<span>Faculty of Engineering, Systems and Computing Engineering, 2013 - present</span>
-				<p>Favorite courses: Transactional systems, Structural math and logic, IT in organizations, Product design and innovation, Business Intelligence, Business architecture.</p>
-			</div>
-		</div>
-		<div class="listing-content">
-			<div class="col-md-2 list-img">
-				<img src="./img/education/education-img2.jpg" alt="">
-			</div>
-			<div class="col-md-10 list-description">
-				<h6>Los Andes University</h6>
-				<span>Faculty of Engineering, Industrial Engineering, 2013 - present</span>
-				<p>Favorite courses: Probability and statistics, Linear optimization, Stochastic models, System dynamics, Discrete event systems simulation.</p>
-			</div>
-		</div>
-		<div class="listing-content">
-			<div class="col-md-2 list-img">
-				<img src="./img/education/education-img3.jpg" alt="">
-			</div>
-			<div class="col-md-10 list-description">
-				<h6>Colegio Santa Clara</h6>
-				<span>2001 - 2012</span>
-				<p>Favorite courses: Math, Literature, Oil painting, Film analysis, Philosophy.</p>
-			</div>
-		</div>
-		</div>
-	</div>
-</div>
-</div>
-
-					<br>
-					<br>
-					
-					<!-- Work-section -->
-						<div class="active-section" id="work">
-	<div class="portfolio-section box-border rex-works-showcase">
-	      <div class="row rex-portfolio-showcase">
-	          <h4 class="title">Work</h4>
-
-
-	          <figure class="row rex-featured-portfolio" role="tabpanel" id="portfolio-intro">
-					<div class="rex-featured">
-						<div class="col-md-12">
-							<div class="display-flax featured-box">
-								<div class="col-md-6">
-									<img class="img-responsive" src="./img/timed.png" alt="Timed project diagram">
-								</div>
-								<div class="col-md-6">
-									<div class="rex-featured-description">
-										<h6>Ti-MED</h6>
-										<span>Deep learning, Personalized medicine</span>
-										<p>A medical information system that takes as input a collection of
-										medical records and generalizes the temporal sequence effective variables that determine the most suitable drugs for Arthritis patients, using a Recurrent Neural Network (RNN) with Long Short Term Memory (LSTM)units, achieving a 97.4% accuracy over a 150 real data input dataset.</p>
+							<div class="section-block education">
+								<h4 class="title">Education</h4>
+								<div class="row">
+									<div id="rex-education-slider">
+										<div class="listing-content">
+											<div class="col-md-2 list-img">
+												<img src="./img/education/education-img2.jpg" alt="">
+											</div>
+											<div class="col-md-10 list-description">
+												<h6>Los Andes University</h6>
+												<span>Faculty of Engineering, Systems and Computing Engineering, 2013 - present</span>
+												<p>Favorite courses: Transactional systems, Structural math and logic, IT in organizations, Product design and innovation, Business Intelligence, Business architecture.</p>
+											</div>
+										</div>
+										<div class="listing-content">
+											<div class="col-md-2 list-img">
+												<img src="./img/education/education-img2.jpg" alt="">
+											</div>
+											<div class="col-md-10 list-description">
+												<h6>Los Andes University</h6>
+												<span>Faculty of Engineering, Industrial Engineering, 2013 - present</span>
+												<p>Favorite courses: Probability and statistics, Linear optimization, Stochastic models, System dynamics, Discrete event systems simulation.</p>
+											</div>
+										</div>
+										<div class="listing-content">
+											<div class="col-md-2 list-img">
+												<img src="./img/education/education-img3.jpg" alt="">
+											</div>
+											<div class="col-md-10 list-description">
+												<h6>Colegio Santa Clara</h6>
+												<span>2001 - 2012</span>
+												<p>Favorite courses: Math, Literature, Oil painting, Film analysis, Philosophy.</p>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-	          </figure>
-	    
-	          <div class="row rex-portfolios" role="tabpanel" id="rex-portfolios">
-	    
-	            <figure class="identity col-lg-4 col-sm-6 rex-portfolio-item">
-					<div class="work-img">
-						<img src="./img/modelos.png" style="width:315px;height:242px;" alt="" class="img-thumbnail">
-					</div>
-					<figcaption class="rex-featured-description">
-						<div class="rex-portfolios-title">
-							<h6>Inventory planing</h6>
-							<span>Stochastic models, Inventory management</span>
-						</div>
-						<p>Development of a Discrete Time Markov Chain and a Markovian Decision Process to find the optimal inventory policy for a clothing store.</p>
-					</figcaption>
-	            </figure>
-
-	            <figure class="photography col-lg-4 col-sm-6 rex-portfolio-item">
-					<div class="work-img">
-						<img src="./img/anova.png" style="width:315px;height:242px;" alt="ANOVA model image" class="img-thumbnail">
-					</div>
-					<figcaption class="rex-featured-description">
-						<div class="rex-portfolios-title">
-							<h6>Biomarkers in Psoriatic Arthritis</h6>
-							<span>ANOVA, medicine</span>
-						</div>
-						<p>Development of an ANOVA experiment to determine the effect of obesity, gender, DAPSA and nail compromise on Psoriatic Arthritis.</p>
-					</figcaption>
-	            </figure>
-
-	            <figure class="ui identity col-lg-4 col-sm-6 rex-portfolio-item">
-					<div class="work-img">
-						<img src="./img/simulacion.png" style="width:315px;height:242px;" alt="Simulation model image" class="img-thumbnail">
-					</div>
-					<figcaption class="rex-featured-description">
-						<div class="rex-portfolios-title">
-							<h6>Car factory Resource Planning</h6>
-							<span>Simulation, optimization</span>
-						</div>
-						<p>Development of a simulation model to find alternatives over the production line to maximize profits.</p>
-					</figcaption>
-	            </figure>	
-
-	            
-	          </div>
-	      </div>
-	</div>
-</div>
-
-					<br>
-					<br>
-
-
-					<footer>
-						<div class="row">
-							<div class="col-md-12">
-								<p>&copy; Copyright 2016 Jordan</p>
+						<br>
+						<br>
+					
+					<!-- Work-section -->
+						<div class="active-section" id="work">
+							<div class="portfolio-section box-border rex-works-showcase">
+								<div class="row rex-portfolio-showcase">
+									<h4 class="title">Work</h4>
+									<figure class="row rex-featured-portfolio" role="tabpanel" id="portfolio-intro">
+										<div class="rex-featured">
+											<div class="col-md-12">
+												<div class="display-flax featured-box">
+													<div class="col-md-6">
+														<img class="img-responsive" src="./img/timed.png" alt="Timed project diagram">
+													</div>
+													<div class="col-md-6">
+														<div class="rex-featured-description">
+															<h6>Ti-MED</h6>
+															<span>Deep learning, Personalized medicine</span>
+															<p>A medical information system that takes as input a collection of
+															medical records and generalizes the temporal sequence effective variables that determine the most suitable drugs for Arthritis patients, using a Recurrent Neural Network (RNN) with Long Short Term Memory (LSTM)units, achieving a 97.4% accuracy over a 150 real data input dataset.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</figure>
+	          						<div class="row rex-portfolios" role="tabpanel" id="rex-portfolios">
+										<figure class="identity col-lg-4 col-sm-6 rex-portfolio-item">
+											<div class="work-img">
+												<img src="./img/modelos.png" style="width:315px;height:242px;" alt="" class="img-thumbnail">
+											</div>
+											<figcaption class="rex-featured-description">
+												<div class="rex-portfolios-title">
+													<h6>Inventory planing</h6>
+													<span>Stochastic models, Inventory management</span>
+												</div>
+												<p>Development of a Discrete Time Markov Chain and a Markovian Decision Process to find the optimal inventory policy for a clothing store.</p>
+											</figcaption>
+										</figure>
+										<figure class="photography col-lg-4 col-sm-6 rex-portfolio-item">
+											<div class="work-img">
+												<img src="./img/anova.png" style="width:315px;height:242px;" alt="ANOVA model image" class="img-thumbnail">
+											</div>
+											<figcaption class="rex-featured-description">
+												<div class="rex-portfolios-title">
+													<h6>Biomarkers in Psoriatic Arthritis</h6>
+													<span>ANOVA, medicine</span>
+												</div>
+												<p>Development of an ANOVA experiment to determine the effect of obesity, gender, DAPSA and nail compromise on Psoriatic Arthritis.</p>
+											</figcaption>
+										</figure>
+										<figure class="ui identity col-lg-4 col-sm-6 rex-portfolio-item">
+											<div class="work-img">
+												<img src="./img/simulacion.png" style="width:315px;height:242px;" alt="Simulation model image" class="img-thumbnail">
+											</div>
+											<figcaption class="rex-featured-description">
+												<div class="rex-portfolios-title">
+													<h6>Car factory Resource Planning</h6>	
+													<span>Simulation, optimization</span>
+												</div>
+												<p>Development of a simulation model to find alternatives over the production line to maximize profits.</p>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
 							</div>
 						</div>
-					</footer>
-
-
+						<br>
+						<br>
+						<footer>
+							<div class="row">
+								<div class="col-md-12">
+									<p>&copy; Copyright 2016 Jordan</p>
+								</div>
+							</div>
+						</footer>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-
-
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/grid.js"></script>
-    <script src="js/vendor/owl.carousel.min.js"></script>
-    <script src="js/vendor/wow.min.js"></script>
-    <script src="js/vendor/jquery.nav.js"></script>
-    <script src="js/vendor/typed.min.js"></script>
-    <script src="js/vendor/jquery.scrollUp.min.js"></script>
-    <script src="js/vendor/scroll.js"></script>
-    <script src="js/vendor/jquery.sticky.js"></script>
-    <script src="js/vendor/jquery.flexnav.min.js"></script>
-    <script src="js/vendor/masonry.pkgd.min.js"></script>
-    <script src="js/vendor/skrollr.js"></script>
-    <script src="js/script.js"></script>
-    <script src="https://d3js.org/d3-color.v1.min.js"></script>
-	<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
-	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-    <script src="js/bubble.js"></script>
-
+		</section>
+		<script src="js/vendor/modernizr.js"></script>
+		<script src="https://d3js.org/d3.v4.js"></script>
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/vendor/grid.js"></script>
+		<script src="js/vendor/owl.carousel.min.js"></script>
+		<script src="js/vendor/wow.min.js"></script>
+		<script src="js/vendor/jquery.nav.js"></script>
+		<script src="js/vendor/typed.min.js"></script>
+		<script src="js/vendor/jquery.scrollUp.min.js"></script>
+		<script src="js/vendor/scroll.js"></script>
+		<script src="js/vendor/jquery.sticky.js"></script>
+		<script src="js/vendor/jquery.flexnav.min.js"></script>
+		<script src="js/vendor/masonry.pkgd.min.js"></script>
+		<script src="js/vendor/skrollr.js"></script>
+		<script src="js/script.js"></script>
+		<script src="https://d3js.org/d3-color.v1.min.js"></script>
+		<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+		<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+		<script src="js/bubble.js"></script>
   </body>
 </html>
 
